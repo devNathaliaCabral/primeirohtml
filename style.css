@@ -1,0 +1,131 @@
+@font-face {
+	font-family: valorantFont;
+	src: url(./Assets/valorantFont.ttf);
+}
+body {
+	font-family: "open sans";
+	margin: 0;
+	padding: 0;
+	background-image: url(./Assets/bgNeon.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.header {
+	overflow: hidden;
+	margin: auto;
+	width: 90%;
+	height: 100%;
+	background-color: #ff4655;
+	padding: 15px;
+	font-size: 18px;
+	border-radius: 5px;
+}
+
+.neon {
+	display: inline-block;
+	font-family: "valorantFont";
+	color: rgb(255, 255, 255, 0.5);
+	font-size: 100px;
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-bottom: 0;
+}
+
+#logo {
+	font-family: "valorantFont";
+	font-size: 20px;
+	margin-top: 5px;
+	margin-left: 15px;
+	padding: 0;
+	float: left;
+	color: whitesmoke;
+}
+.menu {
+	margin: 0;
+	padding: 0;
+	float: right;
+	list-style: none;
+	color: whitesmoke;
+	margin-right: 20px;
+}
+
+li {
+	display: inline-block;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+li:hover {
+	color: #0f1a5c;
+}
+
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+h1 {
+	color: whitesmoke;
+	font-size: 20px;
+}
+
+.sobre {
+	margin-top: 120px;
+	margin-left: 300px;
+	width: 400px;
+	color: whitesmoke;
+}
+#play {
+	margin-top: 200px;
+	margin-left: 400px;
+	width: 250px;
+	font-size: 20px;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.button {
+	margin-top: 20px;
+	background-color: #ff4655;
+	width: 200px;
+	text-align: center;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+h3 {
+	margin-top: 0px;
+	font-size: 35px;
+	font-weight: bolder;
+}
+
+#biografia {
+	text-align: justify;
+}
+
+#habilidades {
+	text-align: justify;
+
+	margin-top: 20px;
+	margin-left: 200px;
+	width: 600px;
+	border-radius: 20px;
+	padding: 40px;
+	background-color: rgba(0, 0, 0, 0.2);
+	color: whitesmoke;
+}
+
+#t {
+	font-size: 30px;
+}
+
+.poder {
+	font-size: 20px;
+	margin-top: 30px;
+}
+
+.button:hover {
+	background-color: rgba(0, 0, 0, 0);
+	border: solid whitesmoke 1px;
+}
