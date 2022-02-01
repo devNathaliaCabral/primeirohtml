@@ -129,3 +129,52 @@ h3 {
 	background-color: rgba(0, 0, 0, 0);
 	border: solid whitesmoke 1px;
 }
+
+@media screen and (max-width: 850px) {
+	#logo {
+		margin: auto;
+		padding-right: 15px;
+		float: none;
+		text-align: center;
+	}
+	.menu {
+		margin-top: 20px;
+		float: none;
+		text-align: center;
+	}
+
+	li {
+		display: block;
+		float: none;
+		text-align: center;
+		margin-bottom: 5px;
+		padding: 10px;
+	}
+
+	.neon {
+		display: inline-block;
+		font-family: "valorantFont";
+		color: rgb(255, 255, 255, 0.5);
+		font-size: 50px;
+		margin-top: 30px;
+		margin-left: 30px;
+		margin-bottom: 0;
+	}
+	#play {
+		margin: auto;
+		padding-top: 60px;
+		width: 250px;
+		font-size: 20px;
+		color: whitesmoke;
+		text-align: center;
+	}
+	.sobre {
+		margin: auto;
+		width: 300px;
+		color: whitesmoke;
+	}
+	#habilidades {
+		margin: auto;
+		width: 300px;
+	}
+}
